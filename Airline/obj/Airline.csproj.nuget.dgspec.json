@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\FSE Training\\UseCase\\Airline\\Airline.csproj": {}
+    "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Airline\\Airline.csproj": {}
   },
   "projects": {
-    "C:\\FSE Training\\UseCase\\AirlineConsumer\\AirlineConsumer.csproj": {
+    "C:\\FSE Training\\UseCase_Rathi_Sprint1\\AirlineConsumer\\AirlineConsumer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FSE Training\\UseCase\\AirlineConsumer\\AirlineConsumer.csproj",
+        "projectUniqueName": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\AirlineConsumer\\AirlineConsumer.csproj",
         "projectName": "AirlineConsumer",
-        "projectPath": "C:\\FSE Training\\UseCase\\AirlineConsumer\\AirlineConsumer.csproj",
+        "projectPath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\AirlineConsumer\\AirlineConsumer.csproj",
         "packagesPath": "C:\\Users\\cogdotnet932\\.nuget\\packages\\",
-        "outputPath": "C:\\FSE Training\\UseCase\\AirlineConsumer\\obj\\",
+        "outputPath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\AirlineConsumer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,8 +34,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\FSE Training\\UseCase\\Common\\Common.csproj": {
-                "projectPath": "C:\\FSE Training\\UseCase\\Common\\Common.csproj"
+              "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Common\\Common.csproj": {
+                "projectPath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Common\\Common.csproj"
               }
             }
           }
@@ -103,14 +103,14 @@
         }
       }
     },
-    "C:\\FSE Training\\UseCase\\Airline\\Airline.csproj": {
+    "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Airline\\Airline.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FSE Training\\UseCase\\Airline\\Airline.csproj",
+        "projectUniqueName": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Airline\\Airline.csproj",
         "projectName": "Airline",
-        "projectPath": "C:\\FSE Training\\UseCase\\Airline\\Airline.csproj",
+        "projectPath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Airline\\Airline.csproj",
         "packagesPath": "C:\\Users\\cogdotnet932\\.nuget\\packages\\",
-        "outputPath": "C:\\FSE Training\\UseCase\\Airline\\obj\\",
+        "outputPath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Airline\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -133,14 +133,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\FSE Training\\UseCase\\AirlineConsumer\\AirlineConsumer.csproj": {
-                "projectPath": "C:\\FSE Training\\UseCase\\AirlineConsumer\\AirlineConsumer.csproj"
+              "C:\\FSE Training\\UseCase_Rathi_Sprint1\\AirlineConsumer\\AirlineConsumer.csproj": {
+                "projectPath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\AirlineConsumer\\AirlineConsumer.csproj"
               },
-              "C:\\FSE Training\\UseCase\\Common\\Common.csproj": {
-                "projectPath": "C:\\FSE Training\\UseCase\\Common\\Common.csproj"
+              "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Common\\Common.csproj": {
+                "projectPath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Common\\Common.csproj"
               },
-              "C:\\FSE Training\\UseCase\\ScheduleConsumer\\ScheduleConsumer.csproj": {
-                "projectPath": "C:\\FSE Training\\UseCase\\ScheduleConsumer\\ScheduleConsumer.csproj"
+              "C:\\FSE Training\\UseCase_Rathi_Sprint1\\ScheduleConsumer\\ScheduleConsumer.csproj": {
+                "projectPath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\ScheduleConsumer\\ScheduleConsumer.csproj"
               }
             }
           }
@@ -228,14 +228,14 @@
         }
       }
     },
-    "C:\\FSE Training\\UseCase\\Common\\Common.csproj": {
+    "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FSE Training\\UseCase\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\FSE Training\\UseCase\\Common\\Common.csproj",
+        "projectPath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\cogdotnet932\\.nuget\\packages\\",
-        "outputPath": "C:\\FSE Training\\UseCase\\Common\\obj\\",
+        "outputPath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -314,14 +314,14 @@
         }
       }
     },
-    "C:\\FSE Training\\UseCase\\ScheduleConsumer\\ScheduleConsumer.csproj": {
+    "C:\\FSE Training\\UseCase_Rathi_Sprint1\\ScheduleConsumer\\ScheduleConsumer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FSE Training\\UseCase\\ScheduleConsumer\\ScheduleConsumer.csproj",
+        "projectUniqueName": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\ScheduleConsumer\\ScheduleConsumer.csproj",
         "projectName": "ScheduleConsumer",
-        "projectPath": "C:\\FSE Training\\UseCase\\ScheduleConsumer\\ScheduleConsumer.csproj",
+        "projectPath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\ScheduleConsumer\\ScheduleConsumer.csproj",
         "packagesPath": "C:\\Users\\cogdotnet932\\.nuget\\packages\\",
-        "outputPath": "C:\\FSE Training\\UseCase\\ScheduleConsumer\\obj\\",
+        "outputPath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\ScheduleConsumer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -344,8 +344,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\FSE Training\\UseCase\\Common\\Common.csproj": {
-                "projectPath": "C:\\FSE Training\\UseCase\\Common\\Common.csproj"
+              "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Common\\Common.csproj": {
+                "projectPath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Common\\Common.csproj"
               }
             }
           }

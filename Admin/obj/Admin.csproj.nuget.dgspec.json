@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\FSE Training\\UseCase\\Admin\\Admin.csproj": {}
+    "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Admin\\Admin.csproj": {}
   },
   "projects": {
-    "C:\\FSE Training\\UseCase\\Admin\\Admin.csproj": {
+    "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Admin\\Admin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FSE Training\\UseCase\\Admin\\Admin.csproj",
+        "projectUniqueName": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Admin\\Admin.csproj",
         "projectName": "Admin",
-        "projectPath": "C:\\FSE Training\\UseCase\\Admin\\Admin.csproj",
+        "projectPath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Admin\\Admin.csproj",
         "packagesPath": "C:\\Users\\cogdotnet932\\.nuget\\packages\\",
-        "outputPath": "C:\\FSE Training\\UseCase\\Admin\\obj\\",
+        "outputPath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Admin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,8 +34,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\FSE Training\\UseCase\\Common\\Common.csproj": {
-                "projectPath": "C:\\FSE Training\\UseCase\\Common\\Common.csproj"
+              "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Common\\Common.csproj": {
+                "projectPath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Common\\Common.csproj"
               }
             }
           }
@@ -107,14 +107,14 @@
         }
       }
     },
-    "C:\\FSE Training\\UseCase\\Common\\Common.csproj": {
+    "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FSE Training\\UseCase\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\FSE Training\\UseCase\\Common\\Common.csproj",
+        "projectPath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\cogdotnet932\\.nuget\\packages\\",
-        "outputPath": "C:\\FSE Training\\UseCase\\Common\\obj\\",
+        "outputPath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

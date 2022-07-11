@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bsPkssyzSrPqhHdx20f5z/qcw+61nvUv6L9It9tiivNzqG2JsixE9RpwExpYGX3yrkH5i1zA+hN7cyX3XlyjbA==",
+  "dgSpecHash": "tGoQBXqOpXKDUWg1YC3KsJIA3TE+HKSMVZnfSZXdaSme6omoX5TyFH18vZi3jFLZiFxGMfeaABFNhjYWyg0YIQ==",
   "success": true,
-  "projectFilePath": "C:\\FSE Training\\UseCase\\ScheduleConsumer\\ScheduleConsumer.csproj",
+  "projectFilePath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\ScheduleConsumer\\ScheduleConsumer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cogdotnet932\\.nuget\\packages\\automatonymous\\5.0.1\\automatonymous.5.0.1.nupkg.sha512",
     "C:\\Users\\cogdotnet932\\.nuget\\packages\\confluent.kafka\\1.5.0\\confluent.kafka.1.5.0.nupkg.sha512",

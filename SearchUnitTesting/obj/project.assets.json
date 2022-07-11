@@ -9397,11 +9397,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\FSE Training\\UseCase\\SearchUnitTesting\\SearchUnitTesting.csproj",
+      "projectUniqueName": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\SearchUnitTesting\\SearchUnitTesting.csproj",
       "projectName": "SearchUnitTesting",
-      "projectPath": "C:\\FSE Training\\UseCase\\SearchUnitTesting\\SearchUnitTesting.csproj",
+      "projectPath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\SearchUnitTesting\\SearchUnitTesting.csproj",
       "packagesPath": "C:\\Users\\cogdotnet932\\.nuget\\packages\\",
-      "outputPath": "C:\\FSE Training\\UseCase\\SearchUnitTesting\\obj\\",
+      "outputPath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\SearchUnitTesting\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -9424,8 +9424,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\FSE Training\\UseCase\\Search\\Search.csproj": {
-              "projectPath": "C:\\FSE Training\\UseCase\\Search\\Search.csproj"
+            "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Search\\Search.csproj": {
+              "projectPath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Search\\Search.csproj"
             }
           }
         }

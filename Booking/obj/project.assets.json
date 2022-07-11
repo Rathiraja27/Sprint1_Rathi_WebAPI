@@ -7763,11 +7763,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\FSE Training\\UseCase\\Booking\\Booking.csproj",
+      "projectUniqueName": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Booking\\Booking.csproj",
       "projectName": "Booking",
-      "projectPath": "C:\\FSE Training\\UseCase\\Booking\\Booking.csproj",
+      "projectPath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Booking\\Booking.csproj",
       "packagesPath": "C:\\Users\\cogdotnet932\\.nuget\\packages\\",
-      "outputPath": "C:\\FSE Training\\UseCase\\Booking\\obj\\",
+      "outputPath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Booking\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -7790,8 +7790,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\FSE Training\\UseCase\\Common\\Common.csproj": {
-              "projectPath": "C:\\FSE Training\\UseCase\\Common\\Common.csproj"
+            "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Common\\Common.csproj": {
+              "projectPath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Common\\Common.csproj"
             }
           }
         }

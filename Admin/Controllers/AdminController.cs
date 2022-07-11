@@ -51,7 +51,8 @@ namespace Admin.Controllers
         /// <summary>Refreshes the specified credentials.</summary>
         /// <param name="credentials">The credentials.</param>
         /// <returns>Refreshed Credentials</returns>
-        public IActionResult Refresh(RefreshCredentials credentials)
+        [HttpPost, Route("Refresh")]
+        public IActionResult Refresh([FromBody]RefreshCredentials credentials)
         {
             var token = _iJWTManagerRepository.Refresh(credentials);
 

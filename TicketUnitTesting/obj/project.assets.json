@@ -9397,11 +9397,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\FSE Training\\UseCase\\TicketUnitTesting\\TicketUnitTesting.csproj",
+      "projectUniqueName": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\TicketUnitTesting\\TicketUnitTesting.csproj",
       "projectName": "TicketUnitTesting",
-      "projectPath": "C:\\FSE Training\\UseCase\\TicketUnitTesting\\TicketUnitTesting.csproj",
+      "projectPath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\TicketUnitTesting\\TicketUnitTesting.csproj",
       "packagesPath": "C:\\Users\\cogdotnet932\\.nuget\\packages\\",
-      "outputPath": "C:\\FSE Training\\UseCase\\TicketUnitTesting\\obj\\",
+      "outputPath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\TicketUnitTesting\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -9424,8 +9424,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\FSE Training\\UseCase\\Ticket\\Ticket.csproj": {
-              "projectPath": "C:\\FSE Training\\UseCase\\Ticket\\Ticket.csproj"
+            "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Ticket\\Ticket.csproj": {
+              "projectPath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\Ticket\\Ticket.csproj"
             }
           }
         }

@@ -21,6 +21,7 @@ namespace Admin.Models
         public virtual DbSet<Booking> Bookings { get; set; }
         public virtual DbSet<Login> Logins { get; set; }
         public virtual DbSet<Passenger> Passengers { get; set; }
+        public virtual DbSet<RefreshToken> RefreshTokens { get; set; }
         public virtual DbSet<Schedule> Schedules { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -100,6 +101,22 @@ namespace Admin.Models
                     .WithMany(p => p.Passengers)
                     .HasForeignKey(d => d.BookingId)
                     .HasConstraintName("FK_Passenger_Booking");
+            });
+
+            modelBuilder.Entity<RefreshToken>(entity =>
+            {
+                entity.HasKey(e => e.TokenId);
+
+                entity.ToTable("RefreshToken");
+
+                entity.Property(e => e.RefreshedToken).HasMaxLength(100);
+
+                entity.Property(e => e.Token).HasMaxLength(300);
+
+                entity.HasOne(d => d.User)
+                    .WithMany(p => p.RefreshTokens)
+                    .HasForeignKey(d => d.UserId)
+                    .HasConstraintName("FK_RefreshToken_Login");
             });
 
             modelBuilder.Entity<Schedule>(entity =>

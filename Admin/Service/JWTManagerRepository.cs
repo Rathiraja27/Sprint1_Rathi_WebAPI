@@ -72,6 +72,7 @@ namespace Admin.Service
                 userRecords.UserName = user.UserName;
                 userRecords.Password = user.Password;
                 userRecords.Role = user.Mode;
+                userRecords.Id = user.Id;
             }
           
             var tokenHandler = new JwtSecurityTokenHandler();
@@ -92,9 +93,24 @@ namespace Admin.Service
             {
                 RefreshedTokenUser[userRecords.UserName] = refreshToken;
             }
+
+
+            if (!_db.RefreshTokens.Any(x => x.UserId == userRecords.Id))
+            {
+                Models.RefreshToken tokenDetails = new Models.RefreshToken();
+                tokenDetails.UserId = userRecords.Id;
+                tokenDetails.Token = token.ToString();
+                tokenDetails.RefreshedToken = refreshToken;
+                _db.RefreshTokens.Add(tokenDetails);
+                _db.SaveChanges();
+            }
             else
             {
-                RefreshedTokenUser.Add(userRecords.UserName, refreshToken);
+                var data = _db.RefreshTokens.Where(x => x.UserId == userRecords.Id).FirstOrDefault();
+                data.Token = token.ToString();
+                data.RefreshedToken = refreshToken;
+                _db.RefreshTokens.Update(data);
+                _db.SaveChanges();
             }
 
             return new Tokens
@@ -125,14 +141,15 @@ namespace Admin.Service
 
             var jwtToken = securityToken as JwtSecurityToken;
 
-            if(jwtToken == null || !jwtToken.Header.Alg.Equals(SecurityAlgorithms.HmacSha256Signature, StringComparison.InvariantCultureIgnoreCase))
+            if(jwtToken == null || !jwtToken.Header.Alg.Equals(SecurityAlgorithms.HmacSha256, StringComparison.InvariantCultureIgnoreCase))
             {
                 throw new SecurityTokenException("Invalid token Passed");
             }
 
             var userName = validate.Identity.Name;
+            var user = _db.Logins.Where(x => x.UserName == userName).FirstOrDefault();
 
-            if (refresh.RefreshToken != RefreshedTokenUser[userName])
+            if (refresh.RefreshToken != _db.RefreshTokens.Where(x=> x.UserId == user.Id).Select(x=> x.RefreshedToken).FirstOrDefault())
             {
                 throw new SecurityTokenException("Invalid token Passed");
             }

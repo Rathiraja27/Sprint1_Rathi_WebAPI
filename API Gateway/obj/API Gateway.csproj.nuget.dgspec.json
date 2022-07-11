@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\FSE Training\\UseCase\\API Gateway\\API Gateway.csproj": {}
+    "C:\\FSE Training\\UseCase_Rathi_Sprint1\\API Gateway\\API Gateway.csproj": {}
   },
   "projects": {
-    "C:\\FSE Training\\UseCase\\API Gateway\\API Gateway.csproj": {
+    "C:\\FSE Training\\UseCase_Rathi_Sprint1\\API Gateway\\API Gateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FSE Training\\UseCase\\API Gateway\\API Gateway.csproj",
+        "projectUniqueName": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\API Gateway\\API Gateway.csproj",
         "projectName": "API Gateway",
-        "projectPath": "C:\\FSE Training\\UseCase\\API Gateway\\API Gateway.csproj",
+        "projectPath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\API Gateway\\API Gateway.csproj",
         "packagesPath": "C:\\Users\\cogdotnet932\\.nuget\\packages\\",
-        "outputPath": "C:\\FSE Training\\UseCase\\API Gateway\\obj\\",
+        "outputPath": "C:\\FSE Training\\UseCase_Rathi_Sprint1\\API Gateway\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
